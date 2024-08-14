@@ -3,15 +3,11 @@
     public class Cliente
     {
         public int Id { get; set; }
-        public string Nome { get; set; } = string.Empty;
-        public string CPF { get; set; } = string.Empty;
-        public string RG { get; set; } = string.Empty;
-        public string DataNascimento { get; set; } = string.Empty; 
-        public string UF { get; set; } = string.Empty;
-        public string Cidade { get; set; } = string.Empty;
-        public string Bairro { get; set; } = string.Empty;
-        public string Rua { get; set; } = string.Empty;
-        public string Numero { get; set; } = string.Empty;
-        public string Complemento { get; set; } = string.Empty;
+        public int NomeCompleto { get; set; }
+        public int CPF { get; set; }
+        public int Email { get; set; }
+        public int TelefoneCelular { get; set; }
+        public int Endereco { get; set; }
+
     }
 }
